@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 import { business } from '../data/business'
 
 export function Footer() {
@@ -25,11 +25,15 @@ export function Footer() {
         <div>
           <h3 className="text-sm uppercase tracking-[0.24em] text-rose-200">Follow</h3>
           <div className="mt-4 flex gap-3">
-            {[FaInstagram, FaFacebookF].map((Icon, index) => (
-              <span key={index} className="grid size-10 place-items-center rounded-full border border-white/15 text-stone-200">
-                <Icon />
-              </span>
-            ))}
+            <a
+              href="https://www.instagram.com/shonali_nail_extensions_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our Instagram profile"
+              className="grid size-10 place-items-center rounded-full border border-white/15 text-stone-200"
+            >
+              <FaInstagram />
+            </a>
           </div>
         </div>
       </div>

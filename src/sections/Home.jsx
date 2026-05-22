@@ -3,13 +3,14 @@ import { FiPhone } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 import { business } from '../data/business'
 import { whatsappUrl } from '../utils/whatsapp'
+import bridalImg from '../assets/heroimage.webp'
 
 export function Home() {
   return (
     <section id="home" className="relative flex min-h-svh items-center overflow-hidden bg-stone-950 px-4 pb-16 pt-28 text-white">
       <img
-        className="absolute inset-0 h-full w-full object-cover opacity-100"
-        src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1800&q=82"
+        className="absolute inset-0 h-100vh w-full object-cover opacity-100"
+        src={bridalImg}
         alt="Luxury beauty salon interior"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />

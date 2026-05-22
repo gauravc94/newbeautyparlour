@@ -1,12 +1,12 @@
-import mehendiImg from '../assets/mehendi.png'
-import nailImg from '../assets/nailex.png'
-import hdImg from '../assets/hdmakeup.png'
-import bridalImg from '../assets/bridal.png'
-import facialImg from '../assets/facial.png'
-import threadingImg from '../assets/threading.png'
-import hairstylingImg from '../assets/hairstyling.png'
-import hairstraightImg from '../assets/hairstraight.png'
-import hairHighlightImg from '../assets/highlight.png'
+import mehendiImg from '../assets/mehendi.webp'
+import nailImg from '../assets/nailex.webp'
+import hdImg from '../assets/hdmakeup.webp'
+import bridalImg from '../assets/bridal.webp'
+import facialImg from '../assets/facial.webp'
+import threadingImg from '../assets/threading.webp'
+import hairstylingImg from '../assets/hairstyling.webp'
+import hairstraightImg from '../assets/hairstraight.webp'
+import hairHighlightImg from '../assets/highlight.webp'
 
 
 
