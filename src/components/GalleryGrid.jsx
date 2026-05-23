@@ -25,12 +25,7 @@ export function GalleryGrid() {
             className="group mb-4 block w-full overflow-hidden rounded-lg bg-white text-left shadow-sm ring-1 ring-stone-200/70 dark:bg-white/5 dark:ring-white/10"
             aria-label={`Open gallery image ${index + 1}`}
           >
-            <img
-              className={`w-full object-cover transition duration-500 group-hover:scale-105 ${index % 3 === 0 ? 'h-80' : 'h-64'}`}
-              src={item.src}
-              alt={item.alt}
-              loading="lazy"
-            />
+            <img className="h-auto w-full transition duration-500 group-hover:scale-105" src={item.src} alt={item.alt} loading="lazy" />
           </motion.button>
         ))}
       </motion.div>

@@ -22,8 +22,16 @@ export const galleryItems = [
     alt: 'Full bridal makeover by Shonalika',
   },
   {
+    src: nails2Img,
+    alt: 'Nail extensions in white',
+  },
+  {
     src: makeoverImg,
     alt: 'Soft glam makeup',
+  },
+  {
+    src: bride5Img,
+    alt: 'Traditional bridal makeover in red along with HD makeup',
   },
   {
     src: bride3Img,
@@ -34,27 +42,15 @@ export const galleryItems = [
     alt: 'Complete bridal makeup',
   },
   {
-    src: bride5Img,
-    alt: 'Traditional bridal makeover in red along with HD makeup',
+    src: nails1Img,
+    alt: 'Nail extensions in pink',
   },
   {
     src: bride6Img,
     alt: 'Bridal makeover detail',
   },
   {
-    src: nails1Img,
-    alt: 'Nail extensions in pink',
-  },
-  {
     src: beauticianImg,
     alt: 'In house beautician/trainer',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=80',
-    alt: 'Premium salon hair styling',
-  },
-  {
-    src: nails2Img,
-    alt: 'Nail extensions in white',
   },
 ]

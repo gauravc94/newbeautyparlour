@@ -80,15 +80,19 @@ textarea {
 }
 
 .btn-primary {
-  @apply bg-stone-950 text-white shadow-lg shadow-stone-950/15 hover:-translate-y-0.5 hover:bg-stone-800 dark:bg-rose-200 dark:text-stone-950 dark:hover:bg-rose-100;
+  @apply bg-green-400 text-white shadow-lg shadow-stone-950/15 hover:-translate-y-0.5 hover:bg-green-800 dark:bg-green-400 dark:text-stone-950 dark:hover:bg-green-200;
 }
 
 .btn-secondary {
-  @apply border border-stone-300 bg-white/70 text-stone-950 hover:-translate-y-0.5 hover:border-rose-300 hover:bg-rose-50 dark:border-white/15 dark:bg-white/10 dark:text-cream dark:hover:bg-white/15;
+  @apply border border-stone-300 bg-green-400 text-stone-950 hover:-translate-y-0.5 hover:border-stone-950 hover:bg-green-600 dark:border-white/15 dark:bg-green-400 dark:text-cream dark:hover:bg-white/15;
 }
 
 .btn-light {
   @apply border border-white/40 bg-white/10 text-white backdrop-blur hover:-translate-y-0.5 hover:bg-white/20;
+}
+
+.btn-tertiary {
+  @apply border border-stone-300 bg-stone-600 text-white hover:-translate-y-0.5 hover:bg-green-600 dark:border-white/40 dark:bg-white/10 dark:text-white dark:backdrop-blur dark:hover:bg-white/20;
 }
 
 .icon-button {

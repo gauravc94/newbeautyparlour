@@ -25,7 +25,7 @@ export function Contact() {
                   <FaWhatsapp />
                   WhatsApp
                 </a>
-                <a className="btn btn-secondary" href={`tel:${business.phone}`}>
+                <a className="btn btn-tertiary" href={`tel:${business.phone}`}>
                   <FiPhone />
                   Call Now
                 </a>
